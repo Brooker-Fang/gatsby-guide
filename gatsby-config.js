@@ -5,6 +5,10 @@
  */
 
 module.exports = {
+  siteMetadata: {
+    title: 'hello gatsby',
+    author: 'fhh'
+  },
   /* Your site config here */
   plugins: [],
 }
