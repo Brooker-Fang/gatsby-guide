@@ -10,5 +10,15 @@ module.exports = {
     author: 'fhh'
   },
   /* Your site config here */
-  plugins: [],
+  plugins: [
+    // 把json文件夹的数据添加到数据层中
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "json",
+        path: `${__dirname}/json/`
+      }
+    },
+    "gatsby-transformer-json"
+  ],
 }
