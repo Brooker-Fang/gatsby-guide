@@ -3,18 +3,18 @@
     "id": "1",
     "name": "fhhong",
     "age": 18,
-    "avatar": "/imgs/avater1.jpeg"
+    "avatar": "./images/avatar1.jpg"
   },
   {
     "id": "2",
     "name": "whh",
     "age": 20,
-    "avatar": "/imgs/avater2.jpg"
+    "avatar": "./images/avatar2.jpg"
   },
   {
     "id": "3",
     "name": "qhh",
     "age": 22,
-    "avatar": "/imgs/avater3.jpg"
+    "avatar": "./images/avatar3.jpg"
   }
 ]
